@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "pip with subs",
+  "description": "why pip does not display subs?",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "extension_logo.png"
+  },
+  "permissions": ["activeTab", "scripting", "tabs"]
+}
